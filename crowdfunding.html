@@ -94,6 +94,7 @@
     background: linear-gradient(90deg, #5b2f7d, #e0567a, #f4a35f, #5b2f7d); background-size: 300% 100%;
     -webkit-background-clip: text; background-clip: text; color: transparent;
     animation: shine 6s linear infinite; }
+  td.titre .brand { background: none; -webkit-background-clip: border-box; background-clip: border-box; color: #fff; animation: none; }
   @keyframes shine { to { background-position: 300% 0; } }
   .slogan { font-style: italic; font-size: 14px; line-height: 1.35; }
   .slogan::before { content: "« "; color: #e0567a; font-weight: bold; }
@@ -147,9 +148,7 @@
   </div>
 
   <div class="col"><table>
-    <tr><td class="titre">Titre du projet</td></tr>
-    <tr><td class="texte" style="height:58px;vertical-align:middle"><span class="brand">Capylum</span></td></tr>
-    <tr><td class="titre">Slogan / Accroche</td></tr>
+    <tr><td class="titre" style="height:58px"><span class="brand">Capylum</span></td></tr>
     <tr><td class="texte" style="height:52px;vertical-align:middle"><p class="slogan">On ne vend pas du rêve, mais des connaissances</p></td></tr>
     <tr><td class="titre">Présentation du projet</td></tr>
     <tr><td class="texte pres">
@@ -175,12 +174,12 @@
           <li>Lancement de la première version ⇒ <b>fin 2027 – début 2028</b></li>
           <li>Mises à jour régulières ⇒ <b>mensuelles</b></li>
         </ul></div>
-    </td></tr>
+    </td></tr>  
   </table></div>
 
   <div class="col"><table>
     <tr><td class="titre">Vidéo de présentation</td></tr>
-    <tr><td class="texte video"><span>Vidéo de présentation (1’30–2 min)</span><div class="play"></div></td></tr>
+    <tr><td class="texte video"><span></span><div class="play"></div></td></tr>
     <tr><td class="titre">Financement</td></tr>
     <tr><td class="texte fin">
       <p>Montant souhaité : <span class="montant">CHF 80’000.-</span></p>
