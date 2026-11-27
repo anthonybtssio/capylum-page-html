@@ -111,6 +111,7 @@
   .etape b { color: #5b2f7d; }
 
   td.video { height: 170px; padding: 0; background: #1d1b3f; position: relative; color: #fff; }
+  td.video video { display: block; width: 100%; height: 170px; object-fit: contain; background: #1d1b3f; }
   .video span { position: absolute; top: 8px; left: 10px; font-size: 12.5px; opacity: .9; }
   .play { position: absolute; left: 50%; top: 50%; width: 58px; height: 58px; margin: -29px 0 0 -29px; border-radius: 50%;
     box-sizing: border-box; background: rgba(255,255,255,.15); border: 2px solid rgba(255,255,255,.8); animation: pulse 2.4s ease-in-out infinite; }
@@ -179,7 +180,7 @@
 
   <div class="col"><table>
     <tr><td class="titre">Vidéo de présentation</td></tr>
-    <tr><td class="texte video"><span></span><div class="play"></div></td></tr>
+    <tr><td class="texte video"><video src="videoCapylum.mp4" controls preload="metadata" playsinline></video></td></tr>
     <tr><td class="titre">Financement</td></tr>
     <tr><td class="texte fin">
       <p>Montant souhaité : <span class="montant">CHF 80’000.-</span></p>
